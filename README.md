@@ -55,22 +55,18 @@ source ecenv/bin/activate        # Linux/Mac
 ecenv\Scripts\activate           # Windows  
 ```
 
-### 3. Install dependencies
-```bash  
-pip install -r requirements.txt  
-```
 
-### 4. Apply migrations
+### 3. Apply migrations
 ```bash  
 python manage.py migrate  
 ```
 
-### 5. Create a superuser (for admin access)
+### 4. Create a superuser (for admin access)
 ```bash  
 python manage.py createsuperuser  
 ```
 
-### 6. Run the development server
+### 5. Run the development server
 ```bash  
 python manage.py runserver  
 ```
