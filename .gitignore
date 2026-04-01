@@ -1,0 +1,13 @@
+media/
+ecenv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+*.log
+
+# Env variables
+.env

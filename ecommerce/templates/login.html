@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+.auth-box {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.auth-box h1 {
+    text-align: center;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.auth-box button {
+    width: 100%;
+    margin-top: 15px;
+}
+</style>
+
+<div class="auth-box">
+    <h1>🔐 Login</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit" class="btn">Login</button>
+    </form>
+
+    <p style="color:red; text-align:center;">{{ error }}</p>
+
+    <p style="text-align:center;">
+        <a href="/register/">Create account</a>
+    </p>
+</div>
+
+{% endblock %}
