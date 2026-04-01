@@ -93,13 +93,20 @@ ecommerce_project/
 
 ## Screenshots
 <img width="1181" height="649" alt="image" src="https://github.com/user-attachments/assets/e1d75fab-8a37-401b-9642-443289ac8794" />
-DashBoard
+
+# DashBoard
+
 <img width="1143" height="563" alt="image" src="https://github.com/user-attachments/assets/f98d7986-adf2-4ab3-8217-eff0357b8328" />
-Product details
+
+# Product details
+
 <img width="1239" height="552" alt="image" src="https://github.com/user-attachments/assets/4fafb239-6484-4e09-b395-fa6ccf47b855" />
-Checkout 
+
+# Checkout 
+
 <img width="1912" height="823" alt="Screenshot from 2026-04-01 21-46-22" src="https://github.com/user-attachments/assets/7ea3dde8-4fbe-4f4f-a668-7799b12c8fff" />
-Django Admin Panel
+
+# Django Admin Panel
 
 
 ---
